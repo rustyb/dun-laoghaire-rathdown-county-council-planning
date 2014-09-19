@@ -133,7 +133,7 @@ class PlanningApplication:
         latlng = None
         if self.postcode != "No Postcode":
             latlng = scraperwiki.geo.gb_postcode_to_latlng(self.postcode)
-        scraperwiki.datastore.save(['council_reference'],
+        scraperwiki.sqlite.save(['council_reference'],
           {'council_reference': self.council_reference or '',
            'address': self.address or '',
            'postcode': self.postcode or '',
