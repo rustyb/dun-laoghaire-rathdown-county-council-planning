@@ -140,7 +140,7 @@ class PlanningApplication:
            'description': self.description or '',
            'info_url': self.info_url or '',
            'comment_url': self.comment_url or '',
-           'date_received': self.date_received}, date=self.date_received, silent=True)
+           'date_received': self.date_received}, date=self.date_received)
 
 # Originally made by Duncan Parkes for PlanningAlerts.com
 
