@@ -394,7 +394,7 @@ import datetime
 
 #swiftlg = scraperwiki.utils.swimport("swift-lg-planning-application-library")
 
-parser = swiftlg.SwiftLGParser("Dun Laoghaire-Rathdown CC", "DLR", "http://planning.dlrcoco.ie/swiftlg/apas/run/wphappcriteria.display")
+parser = SwiftLGParser("Dun Laoghaire-Rathdown CC", "DLR", "http://planning.dlrcoco.ie/swiftlg/apas/run/wphappcriteria.display")
 
 # results = parser.getResultsRaw(11,10,2010)
 # results.save()
