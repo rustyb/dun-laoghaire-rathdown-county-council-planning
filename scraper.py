@@ -5,7 +5,7 @@ __auth__ = None
 
 import re
 
-import scraperwiki.datastore
+#import scraperwiki.datastore
 
 date_format = "%d/%m/%Y"
 
