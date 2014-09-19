@@ -358,9 +358,9 @@ class CannockChaseParser(SwiftLGParser):
     def _fixHTML(self, html):
         return html.replace('</tr class="tablebody">', '</tr>')
 
-if __name__ == '__main__':
-    parser = SwiftLGParser("Daventry District Council", "Daventry", "http://212.125.73.214/swiftlg/apas/run/wphappcriteria.display")
-    print parser.getResults(12,6,2009)
+#if __name__ == '__main__':
+#    parser = SwiftLGParser("Daventry District Council", "Daventry", "http://212.125.73.214/swiftlg/apas/run/wphappcriteria.display")
+#    print parser.getResults(12,6,2009)
 #    parser = SwiftLGParser("Boston Borough Council", "Boston", "http://195.224.121.199/swiftlg/apas/run/")
 #    parser = SwiftLGParser("Dudley", "Dudley", "http://www2.dudley.gov.uk/swiftlg/apas/run/")
 #    parser = EastHertsParser("East Hertfordshire", "East Herts", "http://e-services.eastherts.gov.uk/swiftlg/apas/run/")
